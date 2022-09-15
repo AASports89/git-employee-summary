@@ -3,7 +3,7 @@
 
 ## Overview
 ---
-**'git-employee-summary'** is a ```node.js``` command-line application using dynamic JavaScript with a dependency on ```Inquirer v8.2.4``` that takes in information about employees on a software engineering team, then generates an ```HTML``` webpage that displays summaries for each employee. 
+**'Git Employee Summary'** is a ```node.js``` command-line application using dynamic JavaScript with a dependency on ```Inquirer v8.2.4``` that takes in information about employees on a software engineering team, then generates an ```HTML``` webpage that displays summaries for each employee. 
 Testing powered by ```Jest``` plays a key role to making code maintainable, with a unit test available for every part to ensure functionality.
 
 This user-friendly and intuitive application will allow users to create a virtual roladex of employee summaries with ease. Lastly, the 'video walkthrough' will serve as a guide to full functionality and application.
@@ -32,7 +32,7 @@ SO THAT I have quick access to their emails and GitHub profiles
 ## Acceptance Criteria
 ---
 
-> **Note:** The following criteria is used to determine if the standards set for **'git-employee-summary'** have been met:
+> **Note:** The following criteria is used to determine if the standards set for **'Git Employee Summary'** have been met:
 
 ```md
 GIVEN a command-line application that accepts user input
@@ -98,7 +98,7 @@ node index.js
 ## Mock-Up
 ---
 
-> **Note**: The following GIF shows a mock-up of **'git-employee-summary'**, the generated HTML’s appearance, and functionality:
+> **Note**: The following GIF shows a mock-up of **'Git Employee Summary'**, the generated HTML’s appearance, and functionality:
 
 ![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./Assets/10-object-oriented-programming-homework-demo.png)
 
@@ -106,7 +106,7 @@ The styling in the image is just an example, so feel free to add your own.
 
 ## Video Walkthrough
 ---
-> **Note:** The following link will display a video which depicts the functionality of the **'git-employee-summary'** tool:
+> **Note:** The following link will display a video which depicts the functionality of the **'Git Employee Summary'** application:
 
 https://aasports89.github.io/create-README/
 
@@ -173,7 +173,7 @@ Finally, although it’s not a requirement, consider adding validation to ensure
 ## Evaluation Guideline
 ---
 
-> **Note**: The following evaluation guideline is used to determine if **'create-README'** meets the requirements for a minimum viable product:
+> **Note**: The following evaluation guideline is used to determine if **'Git Employee Summary'** meets the requirements for a minimum viable product:
 
 ### Deliverables: 15%
 
