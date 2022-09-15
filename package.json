@@ -1,0 +1,23 @@
+{
+  "name": "git-employee-summary",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "./__tests__/Employee.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AASports89/git-employee-summary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AASports89/git-employee-summary/issues"
+  },
+  "homepage": "https://github.com/AASports89/git-employee-summary#readme"
+}
