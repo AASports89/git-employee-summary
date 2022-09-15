@@ -2,7 +2,7 @@
 ---
 
 ## Overview
-  ---
+---
 **'git-employee-summary'** is a ```node.js``` command-line application using dynamic JavaScript with a dependency on ```Inquirer v8.2.4``` that takes in information about employees on a software engineering team, then generates an ```HTML``` webpage that displays summaries for each employee. 
 Testing powered by ```Jest``` plays a key role to making code maintainable, with a unit test available for every part to ensure functionality.
 
@@ -24,9 +24,9 @@ This user-friendly and intuitive application will allow users to create a virtua
 ---
 
 ```md
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+AS A manager
+I WANT to generate a webpage that displays my team's basic info
+SO THAT I have quick access to their emails and GitHub profiles
 ```
 
 ## Acceptance Criteria
@@ -57,21 +57,6 @@ THEN I exit the application, and the HTML is generated
 ## Installation
 ----
 
-**Note:** Install and run this application by entering the following cmd lines in terminal:
-
-```
-npm install
-```
--followed by-
-
-```
-npm i inquirer@8.2.4
-```
--followed by-
-```
-node index.js
-```
-
 **Important**: It is recommended that you start with a directory structure that looks like the following example:
 
 ```
@@ -88,6 +73,21 @@ md
 ├── .gitignore             // indicates which folders and files Git should ignore
 ├── index.js               // runs the application
 └── package.json           
+```
+
+**Note:** Install and run this application by entering the following cmd lines in terminal:
+
+```
+npm install
+```
+-followed by-
+
+```
+npm i inquirer@8.2.4
+```
+-followed by-
+```
+node index.js
 ```
 
 ## Mock-Up
