@@ -101,11 +101,32 @@ node index.js
 ## Mock-Up
 ---
 
-> **Note**: The following GIF shows a mock-up of **'Git Employee Summary'**, the generated HTML’s appearance, and functionality:
+> **Note**: The following images show a mock-up of **'Git Employee Summary'**, the generated HTML’s appearance, and functionality:
 
-![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./Assets/10-object-oriented-programming-homework-demo.png)
+![HTML webpage titled “Git Employee Summary ” features four boxes listing employee names, titles, and other key info.](./renderedRoladex/assets/images/mpg.png)
 
-The styling in the image is just an example, so feel free to add your own.
+> **Note**: The following images show a mock-up of the installation, test, and running of the application:
+
+* **Installation:**
+
+<img src=./renderedRoladex/assets/images/install.png>
+
+* **Running Tests:**
+
+<img src=./renderedRoladex/assets/images/test.png>
+
+* **App Prompt(s):**
+<img src=./renderedRoladex/assets/images/prompt.png>
+
+* **Error Hard Stop:**
+
+<img src=./renderedRoladex/assets/images/error.png>
+
+* **Complete Run:**
+
+<img src=./renderedRoladex/assets/images/complete.png>
+
+
 
 ## Video Walkthrough
 ---
@@ -118,60 +139,6 @@ https://aasports89.github.io/create-README/
 
 https://github.com/AASports89/git-employee-summary
 
-## Getting Started
-```
-This Challenge will combine many of the skills we've covered so far. In addition to the User Story and Acceptance Criteria, we’ve provided some guidelines to help get started.
-
-Because this Challenge will require a video submission, refer to the [Fullstack Blog Video Submission Guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide) for additional guidance on creating a video.
-
-Your application should use [Jest](https://www.npmjs.com/package/jest) for running the unit tests and [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) for collecting input from the user. The application will be invoked by using the following command:
-
-**Important**: Make sure that you remove `dist` from the `.gitignore` file so that Git will track this folder and include it when you push up to your application's repository.
-
-The application must include `Employee`, `Manager`, `Engineer`, and `Intern` classes. The tests for these classes (in the `_tests_` directory) must ALL pass.
-
-The first class is an `Employee` parent class with the following properties and methods:
-
-* `name`
-
-* `id`
-
-* `email`
-
-* `getName()`
-
-* `getId()`
-
-* `getEmail()`
-
-* `getRole()`&mdash;returns `'Employee'`
-
-The other three classes will extend `Employee`.
-
-In addition to `Employee`'s properties and methods, `Manager` will also have the following:
-
-* `officeNumber`
-
-* `getRole()`&mdash;overridden to return `'Manager'`
-
-In addition to `Employee`'s properties and methods, `Engineer` will also have the following:
-
-* `github`&mdash;GitHub username
-
-* `getGithub()`
-
-* `getRole()`&mdash;overridden to return `'Engineer'`
-
-In addition to `Employee`'s properties and methods, `Intern` will also have the following:
-
-* `school`
-
-* `getSchool()`
-
-* `getRole()`&mdash;overridden to return `'Intern'`
-
-Finally, although it’s not a requirement, consider adding validation to ensure that user input is in the proper format.
-```
 
 ## Evaluation Guideline
 ---
