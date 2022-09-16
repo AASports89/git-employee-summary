@@ -81,16 +81,16 @@ md
 > **Note:** Install and run this application by entering the following cmd lines in terminal:
 
 ```
-npm install
+'npm install'
 ```
 -followed by-
 
 ```
-npm i inquirer@8.2.4
+'npm i inquirer@8.2.4'
 ```
 -followed by-
 ```
-node index.js
+'node index.js'
 ```
 > **Important:** For troubleshooting issues the use of ```Jest``` is recommended by running the cmd line below on the ```_test_``` directory:
 
