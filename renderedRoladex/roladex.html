@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="./assets/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <title>Git Employee Summary</title>
+  </head>
+
+    <div style="background-image: linear-gradient(rgba(96, 96, 100, 0.974) 0%, rgb(228, 234, 239) 100%);border: solid 2px black; border-radius: 1em" class="container-fluid">
+
+        <div class="col-12 card-header" style="border: solid 1.5px black; border-radius: 0.5em; background-image: linear-gradient(rgba(3, 13, 198, 0.974) 0%, rgb(126, 184, 242) 100%)">
+            <h1 style="text-align:center"><img src="./assets/images/title.png"></h1>
+        </div>
+
+        <div style="padding-top: 2%" class="row row-cols-1 row-cols-md-3 d-flex justify-content-center">
+            <div class="col mb-4">
+    <div style="background-image: linear-gradient(rgba(106, 106, 110, 0.974) 0%, rgb(225, 233, 242) 100%)" class="card employee-card">
+        <div style="text-align:center; border-bottom: solid 1px black" class="card-header">
+            <h2 style="color: whitesmoke" class="card-title" id="head">Michael Jordan</h2>
+            <h3 style="font-size: 22px; font-weight:bold" class="card-title">Manager
+                <a style="border: 1px solid whitesmoke" class="btn btn-primary" type="button" data-bs-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1"><i style="font-size: 20px" class="fa-solid fa-mug-hot"></i></a>
+            </h3>
+        </div> 
+    
+        <div class="card-body" id="info">
+            <div class="collapse" id="multiCollapseExample1" data-bs-parent="#info" aria-labelledby="head">
+                <ul class="list-group">
+                    <li class="list-group-item">ID: 23</li>
+                    <li class="list-group-item">Email: <a href="mailto:air.jordan@gmail.com">air.jordan@gmail.com</a></li>
+                    <li class="list-group-item">Office number: 06</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var myCollapsible = document.getElementById('#multiCollapseExample1')
+       myCollapsible.addEventListener('shown.bs.collapse', function () {
+       console.log("Shown")
+       });
+</script><div class="col mb-4">
+    <div style="background-image: linear-gradient(rgba(106, 106, 110, 0.974) 0%, rgb(225, 233, 242) 100%)" class="card employee-card">
+        <div style="text-align:center; border-bottom: solid 1px black" class="card-header">
+            <h2 style="color: whitesmoke" class="card-title" id="head3">Kobe Bryant</h2>
+            <h3 style="font-size: 22px; font-weight:bold" class="card-title">Engineer
+                <a style="border: 1px solid whitesmoke" class="btn btn-primary" type="button" data-bs-toggle="collapse" href="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3"><i style="font-size: 20px" class="fa-solid fa-laptop-code"></i></a>
+            </h3>
+        </div>
+    
+        <div class="card-body" id="info3">
+            <div class="collapse" id="multiCollapseExample3" data-bs-parent="#info3" aria-labelledby="head3">
+                <ul class="list-group">
+                    <li class="list-group-item">ID: 08</li>
+                    <li class="list-group-item">Email: <a href="mailto:kobe.bryant@gmail.com">kobe.bryant@gmail.com</a></li>
+                    <li class="list-group-item">GitHUB: <a href="https://github.com/AASports89" target="_blank" rel="noopener noreferrer">AASports89</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var myCollapsible = document.getElementById('#multiCollapseExample3')
+       myCollapsible.addEventListener('shown.bs.collapse', function () {
+       console.log("Shown")
+       });
+</script>,<div class="col mb-4">
+    <div style="background-image: linear-gradient(rgba(106, 106, 110, 0.974) 0%, rgb(225, 233, 242) 100%)" class="card employee-card">
+        <div style="text-align:center; border-bottom: solid 1px black" class="card-header">
+            <h2 style="color: whitesmoke" class="card-title" id="head3">Jerry West</h2>
+            <h3 style="font-size: 22px; font-weight:bold" class="card-title">Engineer
+                <a style="border: 1px solid whitesmoke" class="btn btn-primary" type="button" data-bs-toggle="collapse" href="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3"><i style="font-size: 20px" class="fa-solid fa-laptop-code"></i></a>
+            </h3>
+        </div>
+    
+        <div class="card-body" id="info3">
+            <div class="collapse" id="multiCollapseExample3" data-bs-parent="#info3" aria-labelledby="head3">
+                <ul class="list-group">
+                    <li class="list-group-item">ID: 44</li>
+                    <li class="list-group-item">Email: <a href="mailto:mr.clutch@yahoo.com">mr.clutch@yahoo.com</a></li>
+                    <li class="list-group-item">GitHUB: <a href="https://github.com/AASports89" target="_blank" rel="noopener noreferrer">AASports89</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var myCollapsible = document.getElementById('#multiCollapseExample3')
+       myCollapsible.addEventListener('shown.bs.collapse', function () {
+       console.log("Shown")
+       });
+</script><div class="col mb-4">
+    <div style="background-image: linear-gradient(rgba(106, 106, 110, 0.974) 0%, rgb(225, 233, 242) 100%)" class="card employee-card">
+        <div style="text-align:center; border-bottom: solid 1px black" class="card-header">
+            <h2 style="color: whitesmoke" class="card-title" id="head2">Lebron James</h2>
+            <h3 style="font-size: 22px; font-weight:bold" class="card-title">Intern
+                <a style="border: 1px solid whitesmoke" class="btn btn-primary" type="button" data-bs-toggle="collapse" href="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"><i style="font-size: 20px" class="fa-solid fa-user-graduate"></i></a>
+            </h3>
+        </div>
+    
+        <div class="card-body" id="info2">
+            <div class="collapse" id="multiCollapseExample2" data-bs-parent="#info2" aria-labelledby="head2">
+                <ul class="list-group">
+                <li class="list-group-item">ID: 06</li>
+                <li class="list-group-item">Email: <a href="mailto:king.james@yahoo.com">king.james@yahoo.com</a></li>
+                <li class="list-group-item">School: NBA</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var myCollapsible = document.getElementById('#multiCollapseExample2')
+       myCollapsible.addEventListener('shown.bs.collapse', function () {
+       console.log("Shown")
+       });
+</script>
+        </div>
+    
+        <div class="col-12 card-footer" style="border: solid 1.5px black; border-radius: 0.5em; background-image: linear-gradient(rgba(3, 13, 198, 0.974) 0%, rgb(126, 184, 242) 100%)">
+            <h1 style="text-align:center"><img src="./assets/images/title.png"></h1>
+        </div>
+
+    </div>
+
+</html>
