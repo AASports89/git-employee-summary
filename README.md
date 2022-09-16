@@ -132,7 +132,7 @@ node index.js
 ---
 > **Note:** The following link will display a video which depicts the functionality of the **'Git Employee Summary'** application:
 
-https://aasports89.github.io/create-README/
+https://aasports89.github.io/git-employee-summary-walkthrough/
 
 ## GitHUB Repository
 ---
