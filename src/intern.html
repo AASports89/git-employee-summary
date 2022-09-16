@@ -1,0 +1,27 @@
+<div class="col mb-4">
+    <div style="background-image: linear-gradient(rgba(106, 106, 110, 0.974) 0%, rgb(225, 233, 242) 100%)" class="card employee-card">
+        <div style="text-align:center; border-bottom: solid 1px black" class="card-header">
+            <h2 style="color: whitesmoke" class="card-title" id="head2">{{ name }}</h2>
+            <h3 style="font-size: 22px; font-weight:bold" class="card-title">{{ role }}
+                <a style="border: 1px solid whitesmoke" class="btn btn-primary" type="button" data-bs-toggle="collapse" href="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"><i style="font-size: 20px" class="fa-solid fa-user-graduate"></i></a>
+            </h3>
+        </div>
+    
+        <div class="card-body" id="info2">
+            <div class="collapse" id="multiCollapseExample2" data-bs-parent="#info2" aria-labelledby="head2">
+                <ul class="list-group">
+                <li class="list-group-item">ID: {{ id }}</li>
+                <li class="list-group-item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
+                <li class="list-group-item">School: {{ school }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var myCollapsible = document.getElementById('#multiCollapseExample2')
+       myCollapsible.addEventListener('shown.bs.collapse', function () {
+       console.log("Shown")
+       });
+</script>

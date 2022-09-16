@@ -1,13 +1,13 @@
 //*************************************** MAIN-FUNCTION-JSCRIPT *****************************************//
 
-    const Manager = require("./lib/manager");
-    const Engineer = require("./lib/engineer");
-    const Intern = require("./lib/intern");
+    const Manager = require("./lib/Manager");
+    const Engineer = require("./lib/Engineer");
+    const Intern = require("./lib/Intern");
     const inquirer = require("inquirer");
     const path = require("path");
     const fs = require("fs");
 
-    const OUTPUT_DIR = path.resolve(__dirname, "output");
+    const OUTPUT_DIR = path.resolve(__dirname, "renderedRoladex");
     const outputPath = path.join(OUTPUT_DIR, "roladex.html");
 
     const render = require("./lib/htmlgen");
@@ -194,6 +194,6 @@
             console.log("Employee Roladex HTML file successfully created! Please check roladex.html in the output folder.");
         }
     );
-}
+    }
 
-getEmployeeRoladex();
+    getEmployeeRoladex();
